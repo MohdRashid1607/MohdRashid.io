@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jack - personal portfolio</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="/WEB-DEV-PROJECT/assets/css/style.css">
+  <link rel="stylesheet" href="/WEB-DEV-PROJECT/assets/css/about.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top" class="dark_theme">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1 class="h1 logo">
+        <a href="/WEB-DEV-PROJECT/index.html">
+          <img src="/WEB-DEV-PROJECT/readme-images/logo.jpg.png" alt="Mohd's Logo" style="width: 120px; height: 110px;">
+        </a>
+      </h1>
+
+      <div class="navbar-actions">
+
+        <select name="language" id="lang">
+          <option value="en">En</option>
+          <option value="ar">Ar</option>
+        </select>
+
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+          <span class="icon"></span>
+        </button>
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="/WEB-DEV-PROJECT/index.html" class="navbar-link">Home.</a>
+          </li>
+
+          <li>
+            <a href="/WEB-DEV-PROJECT/assets/pages/about.html" class="navbar-link">About.</a>
+          </li>
+
+          <li>
+            <a href="/WEB-DEV-PROJECT/assets/pages/skills.html" class="navbar-link">Skills.</a>
+          </li>
+
+          <li>
+            <a href="/WEB-DEV-PROJECT/assets/pages/portfolio.html" class="navbar-link">Portfolio.</a>
+          </li>
+
+          <li>
+            <a href="/WEB-DEV-PROJECT/assets/pages/contact.html" class="navbar-link">Contact.</a>
+          </li>
+
+
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+    <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" id="about">
+
+        <figure class="about-banner">
+          <img src="../images/8f486abf-743e-40e3-9dfe-0f02d664aba5.jpeg" alt="A man in a alice blue shirt with a thinking expression"
+            class="w-100">
+        </figure>
+
+        <div class="about-content section-content">
+
+          <p class="section-subtitle">About me</p>
+
+          <h2 class="h3 section-title">Need a Creative Product? I can Help You!</h2>
+
+          <p class="section-text">
+            Hi! I’m Muhammad Rashid, and I’m a developer who has passion for building clean web applications with intuitive
+            functionalities. I enjoy the process of turning ideas into reality using creative solutions. I’m always
+            curious about
+            learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have
+            worked with
+            creative teams, which involves daily stand-ups and communications, source control, and project management.
+          </p>
+
+          <div class="btn-group">
+          <a href="/WEB-DEV-PROJECT/assets/pages/contact.html"> <button class="btn btn-secondary">Hire me</button></a>
+            <button class="btn btn-primary">Download cv</button>
+          </div>
+
+        </div>
+
+      </section>
+ <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="h1 logo">
+        <a href="#">
+          <img src="/WEB-DEV-PROJECT/readme-images/logo2.png" alt="Mohd's Logo" style="width: 120px; height: 110px;">
+        </a>
+      </p>
+
+      <p class="copyright">
+        &copy; 2024 <a href="#">Muhammad Rashid</a>. All rights reserved
+      </p>
+
+    </div>
+  </footer>
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="../js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+/* about.css */
+
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Add left and right margins to the main content area */
+  .container {
+    margin-left: 40px;  /* Adjust as needed */
+    margin-right: 40px; /* Adjust as needed */
+  }
+  
+  .about-content {
+    margin-left: 40px;  /* Adjust as needed */
+    margin-right: 40px; /* Adjust as needed */
+    margin-top: 40px;
+  }
+  
+  .footer {
+    margin-top: auto;
+  }
+  
+  header {
+    /* Existing styles for your header */
+    margin-bottom: 40px; /* Adds space below the header */
+  }
+  
+  .content {
+    /* Example class for your main content */
+    margin-top: 40px; /* Adds space above the content */
+  }

@@ -1,0 +1,43 @@
+/* portfolio.css */
+
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Add left and right margins to the main content area */
+  .container {
+    margin-left: 20px;  /* Adjust as needed */
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .project-content {
+    margin-left: 40px;  /* Adjust as needed */
+    margin-right: 40px; /* Adjust as needed */
+    margin-top: auto;
+  }
+  
+  .project-card {
+    margin-left: 20px;  /* Adjust as needed */
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  /* Footer styles */
+  .footer {
+    margin-top: 20px; /* Reduce space above the footer */
+    padding: 20px 0;  /* Adjust as needed */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer .container {
+    margin-left: 20px;  /* Adjust as needed */
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  /* Additional styles can be added here */
+  
