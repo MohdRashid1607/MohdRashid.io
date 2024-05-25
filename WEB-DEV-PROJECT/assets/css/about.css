@@ -23,13 +23,8 @@ body {
   .footer {
     margin-top: auto;
   }
+    .about-banner{
+      margin-left: 95px; /* Adjust the value to move the image to the right */
+      margin-top: 50px; /* Adjust the value to move the image down */
+    }
   
-  header {
-    /* Existing styles for your header */
-    margin-bottom: 40px; /* Adds space below the header */
-  }
-  
-  .content {
-    /* Example class for your main content */
-    margin-top: 40px; /* Adds space above the content */
-  }
