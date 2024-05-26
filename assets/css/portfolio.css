@@ -17,7 +17,7 @@ body {
   .project-content {
     margin-left: 40px;  /* Adjust as needed */
     margin-right: 40px; /* Adjust as needed */
-    margin-top: auto;
+  
   }
   
   .project-card {
@@ -39,5 +39,14 @@ body {
     margin-right: 20px; /* Adjust as needed */
   }
   
-  /* Additional styles can be added here */
+ /* Add this to your CSS file */
+
+.header {
+  margin-bottom: 20px; /* Adjust this value as needed */
+}
+
+#portfolio {
+  padding-top: 120px; /* Adjust this value as needed */
+}
+
   
