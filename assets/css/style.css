@@ -1342,4 +1342,20 @@ textarea.input-field {
   filter: invert(1);
 }
 
+/* Center the hero section content */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center the text */
+}
+
+/* Resize the image */
+.resize-image {
+  width: 40px;  /* Set desired width */
+  height: 100px; /* Set desired height */
+  object-fit: cover; /* Ensure the image fits within the given dimensions */
+}
+
+
 
