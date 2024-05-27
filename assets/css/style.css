@@ -474,7 +474,7 @@ main { overflow-x: hidden; }
 
 .hero-banner {
   max-width: 500px;
-  width: 125%;
+  width: 100%;
   margin-bottom: 30px;
 }
 
@@ -1352,7 +1352,7 @@ textarea.input-field {
 
 /* Resize the image */
 .resize-image {
-  width: 40px;  /* Set desired width */
+  width: 80px;  /* Set desired width */
   height: 100px; /* Set desired height */
   object-fit: cover; /* Ensure the image fits within the given dimensions */
 }
