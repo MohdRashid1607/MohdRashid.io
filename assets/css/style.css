@@ -1420,5 +1420,10 @@ img {
   object-fit: cover;
 }
 
+.stats {
+  text-align: center; /* Aligns the content inside the section to the center */
+  margin: 0 auto; /* Centers the section horizontally */
+}
+
 
 
